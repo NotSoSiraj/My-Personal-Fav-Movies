@@ -408,3 +408,47 @@ background:rgba(0,0,0,0.3);
         flex-direction: column;
     }
   }
+
+ @media screen and (max-width: 400px) {
+    .section2 {
+        width: 100%;
+        padding-top: 27px;
+        text-align: center;
+        height: 909vh;
+        background-color: #080b08;
+    }
+
+    .section3 {
+        padding-top: 0;
+    }
+    .nolan {
+        width: 100%;
+        padding: 0;
+    }
+
+.geners {
+    height: 117px;
+    width: 100%;
+    margin-top: 46px;
+}
+
+.geners a {
+    display: inline-block;
+    padding: 10px 27px;
+    margin-left: 13px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 14px;
+    color: rgb(146 146 146);
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 50px;
+}
+
+.earning {
+    text-align: center;
+}
+
+.nolan {
+    height: 487px;
+}
+  }
