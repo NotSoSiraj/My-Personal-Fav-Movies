@@ -62,7 +62,7 @@ main {
     font-weight: 600;
     font-size: 19px;
     background: linear-gradient(90deg, rgba(173,29,235,1) 0%, rgba(110,114,252,1) 100%);
-    border-radius: 8px;
+    border-radius: 4px;
     color: white;
     padding: 16px 24px;
     cursor: pointer;
