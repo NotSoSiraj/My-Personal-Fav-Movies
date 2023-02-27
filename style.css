@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow',sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    height: 625px;
+    background-image: url(images/default-bg-wrapper.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-wrapper {
+    width: 100%;
+     height: 625px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.content{
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content h1 , p {
+    color: white;
+}
+
+
+.content h1 {
+    width: 67%;
+    font-size: 3.4rem;
+    text-align: center;
+}
+.content p {
+    width: 55%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 23px;
+    margin-top: 22px;
+    color: #9a9a9a;
+}
+
+.content a {
+    width: 159px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 19px;
+    background: linear-gradient(90deg, rgba(173,29,235,1) 0%, rgba(110,114,252,1) 100%);
+    border-radius: 8px;
+    color: white;
+    padding: 16px 24px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease-in-out;
+    
+    
+}
+
+.content a:hover {
+    background: linear-gradient(90deg, rgb(159, 63, 248) 0%, rgb(119, 70, 235) 100%);
+    transition: 0.5s ease-in-out;
+    
+}
+
+span {
+    
+    background: -webkit-linear-gradient(90deg, rgba(173,29,235,1) 0%, rgba(110,114,252,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section2{
+    width: 100%;
+    height: 247vh;
+    background-color: #080b08;
+}
+
+.Mytaste{
+    display: flex;
+    width: 100%;
+    height: 131px;
+    padding-top: 23px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Mytaste h1 {
+    width: 67%;
+    color: white;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.Mytaste p {
+    width: 55%;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 23px;
+    margin-top: 22px;
+    color: #9a9a9a;
+}
+
+.geners{
+        height: 117px;
+        width: 83%;
+        padding: 0 50px;
+}
+
+.geners a {
+    display: inline-block;
+    padding: 10px 27px;
+    margin-left: 13px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 37px;
+    color: rgb(146 146 146);
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 50px;
+
+}
+
+.geners a:hover {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);;
+}
+
+.geners a:active{
+    background-color: rgb(12, 12, 12);
+    
+}
+
+.theIconic{
+    padding: 11px 61px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.theIconic h1 {
+    width: 67%;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.iconicfilms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.Iconic {
+    margin-top: 32px;
+    cursor: pointer;
+
+}
+
+#main , #main2 , #main3 {
+    margin-left: 0;
+}
+
+.iconicfilms div img {
+    width: 203px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.iconicfilms div:hover {
+
+background:rgba(0,0,0,0.3);
+    
+}
+
+.black{
+    width: 203px;
+    position: absolute;
+    height: 304px;
+    margin-left: 20px;
+}
+
+#blackno , #blackno2 , #blackno3{
+    margin-left: 0;
+}
+
+.black:hover{
+    background:rgba(0, 0, 0, 0.3);
+}
+
+.black i {
+    position: absolute;
+    bottom: 45%;
+    left: 46%;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(90deg, rgba(173,29,235,1) 0%, rgba(110,114,252,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.black:hover i {
+    display: inline-block;
+  }
+  
+ .black i {
+    display: none;
+  }
+
+  .section3{
+    width: 100%;
+    height: 140vh;
+    background-color: #080b08;
+  }
+
+  .boxoffice h1 {
+    color: white;
+    font-size: 3.4rem;
+    text-align: center;
+  }
+
+  .dcstar {
+    height: 180vh;
+  }
+
+  .star{
+    height: 178vh;
+  }
+
+  .stor {
+    height: 130vh;
+  }
+
+  .boxoffice p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 23px;
+    margin-top: 16px;
+    color: #9a9a9a;
+  }
+
+  .earning {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .earning h1 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+  
+  }
+
+  .dollars {
+    padding: 40px 61px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 117vh;
+  }
+
+  .nolan {
+    width: 90%;
+    height: 388px;
+    display: flex;
+    align-items: center;
+    background-color: #080b08;
+    justify-content: center;
+    padding: 0 79px;
+  }
+
+  .quote {
+    text-align: center;
+  }
+
+  .quote h3 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .quote p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-top: 16px;
+    color: #9a9a9a;
+    margin-top: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        height: 712px;
+        background-image: url(images/default-bg-wrapper.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .geners{
+        padding: 0;
+    }
+
+    .nolan {
+        width: 100%;
+        padding: 0;
+    }
+
+    #shows {
+        height: 226vh;
+    }
+
+    #DC {
+        height: 365vh;
+    }
+
+    #marvelsection {
+        height: 625vh;
+    }
+
+    .section3 {
+        width: 100%;
+        height: 359vh;
+        background-color: #080b08;
+    }
+    .banner-wrapper {
+        width: 100%;
+        height: 713px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }.content {
+        width: 100%;
+        height: 624px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }.content h1 {
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+    }.content p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 23px;
+        margin-top: 22px;
+        color: #9a9a9a;
+    }.section2 {
+        width: 100%;
+        height: 534vh;
+        background-color: #080b08;
+    }.Mytaste {
+        display: flex;
+        width: 100%;
+        height: 131px;
+        padding-top: 23px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }.geners {
+        height: 117px;
+        width: 100%;
+        
+    }.theIconic {
+        padding: 37px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+    }.theIconic h1 {
+        width: 37%;
+        color: white;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 2rem;
+    }.iconicfilms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+        justify-content: center;
+    }.section3 {
+        width: 100%;
+        
+        padding-top: 107vh;
+        background-color: #080b08;
+    }.earning {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+  }
