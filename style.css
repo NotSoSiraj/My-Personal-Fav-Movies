@@ -12,7 +12,7 @@ body {
 main {
     width: 100%;
     height: 625px;
-    background-image: url(default-bg-wrapper.jpeg);
+    background-image: url(images/default-bg-wrapper.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +62,7 @@ main {
     font-weight: 600;
     font-size: 19px;
     background: linear-gradient(90deg, rgba(173,29,235,1) 0%, rgba(110,114,252,1) 100%);
-    border-radius: 4px;
+    border-radius: 8px;
     color: white;
     padding: 16px 24px;
     cursor: pointer;
@@ -121,7 +121,7 @@ span {
 
 .geners{
         height: 117px;
-        width: 83%;
+        width: 86%;
         padding: 0 50px;
 }
 
@@ -156,10 +156,11 @@ span {
 }
 
 .theIconic h1 {
-    width: 67%;
-    color: white;
-    font-weight: 600;
-    font-size: 2rem;
+    width: 37%;
+        color: white;
+        margin-left: 19px;
+        font-weight: 600;
+        font-size: 2rem;
 }
 
 .iconicfilms {
@@ -225,7 +226,7 @@ background:rgba(0,0,0,0.3);
 
   .section3{
     width: 100%;
-    height: 140vh;
+    height: 128vh;
     background-color: #080b08;
   }
 
@@ -277,7 +278,7 @@ background:rgba(0,0,0,0.3);
   }
 
   .nolan {
-    width: 90%;
+    
     height: 388px;
     display: flex;
     align-items: center;
@@ -304,7 +305,12 @@ background:rgba(0,0,0,0.3);
     color: #9a9a9a;
     margin-top: 26px;
   }
-
+  @media screen and (max-width: 700px) {
+    .geners {
+        height: 117px;
+        width: 85%;
+    }
+  }
   @media screen and (max-width: 600px) {
     main {
         width: 100%;
@@ -313,6 +319,11 @@ background:rgba(0,0,0,0.3);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    #star {
+        width: 100%;
+        height: 257vh;
+        background-color: #080b08;
     }
 
     .geners{
@@ -325,20 +336,25 @@ background:rgba(0,0,0,0.3);
     }
 
     #shows {
-        height: 226vh;
+        height: 142vh;
     }
 
     #DC {
-        height: 365vh;
+        height: 379vh;
     }
 
     #marvelsection {
-        height: 625vh;
+        height: 700vh;
+    }
+    #iconic {
+        width: 100%;
+        height: 394vh;
+        background-color: #080b08;
     }
 
     .section3 {
         width: 100%;
-        height: 359vh;
+        height: 215vh;
         background-color: #080b08;
     }
     .banner-wrapper {
@@ -363,11 +379,10 @@ background:rgba(0,0,0,0.3);
         line-height: 23px;
         margin-top: 22px;
         color: #9a9a9a;
-    }.section2 {
-        width: 100%;
-        height: 534vh;
-        background-color: #080b08;
-    }.Mytaste {
+    }
+
+    
+    .Mytaste {
         display: flex;
         width: 100%;
         height: 131px;
@@ -375,19 +390,22 @@ background:rgba(0,0,0,0.3);
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }.geners {
+    }
+    .geners {
         height: 117px;
-        width: 100%;
+        width: 95%;
         
-    }.theIconic {
+    }
+    .theIconic {
         padding: 37px;
         box-sizing: border-box;
         width: 100%;
         height: 100vh;
-    }.theIconic h1 {
+    }
+    .theIconic h1 {
         width: 37%;
         color: white;
-        margin: 0 auto;
+        margin-left: 100px;
         font-weight: 600;
         font-size: 2rem;
     }.iconicfilms {
@@ -398,7 +416,7 @@ background:rgba(0,0,0,0.3);
     }.section3 {
         width: 100%;
         
-        padding-top: 107vh;
+        padding-top: 5vh;
         background-color: #080b08;
     }.earning {
         display: flex;
@@ -407,14 +425,21 @@ background:rgba(0,0,0,0.3);
         justify-content: space-between;
         flex-direction: column;
     }
-  }
+  
+}
+  
 
- @media screen and (max-width: 400px) {
-    .section2 {
+  @media screen and (max-width: 400px) {
+   
+
+    #marvelsection {
+        height: 674vh;
+    }
+    #star {
         width: 100%;
         padding-top: 27px;
         text-align: center;
-        height: 909vh;
+        height: 500vh;
         background-color: #080b08;
     }
 
@@ -424,6 +449,30 @@ background:rgba(0,0,0,0.3);
     .nolan {
         width: 100%;
         padding: 0;
+    }
+    #shows {
+        height: 223vh;
+    }
+    #DC {
+        height: 391vh;
+    }
+    .theIconic h1 {
+        width: 100%;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .section3 {
+        height: 281vh;
+    }
+    #iconic {
+        width: 100%;
+        height: 701vh;
+        background-color: #080b08;
     }
 
 .geners {
@@ -449,6 +498,6 @@ background:rgba(0,0,0,0.3);
 }
 
 .nolan {
-    height: 487px;
+    height: 539px;
 }
   }
