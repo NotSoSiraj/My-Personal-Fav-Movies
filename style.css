@@ -12,7 +12,7 @@ body {
 main {
     width: 100%;
     height: 625px;
-    background-image: url(images/default-bg-wrapper.jpeg);
+    background-image: url(default-bg-wrapper.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
